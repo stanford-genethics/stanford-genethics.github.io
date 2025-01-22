@@ -1,134 +1,157 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>GENE 220: Introduction To Genetics, Ethics, and Society</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+<head>
+    <meta charset="utf-8" />
+    <title>GENE 220: Introduction To Genetics, Ethics, and Society</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
          <script src="js/html5shiv.js"></script>
          <script src="js/respond.min.js"></script>
          <![endif]-->
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menucollapse.js"></script>
+    <script type="text/javascript" src="js/arrow78.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
-        <body id="page-top" class="index">
+<body id="page-top" class="index">
 
-            <!-- Navigation -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-3-content').show();"
+                            href="curriculum2024.html">Curriculum</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="publications.html">Publications</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="people.html">People</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
                             <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="page-scroll">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="curriculum2023.html">Curriculum</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="publications.html">Publications</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="people.html">People</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+            <!-- search box submenu -->
+            <div class="collapse" id="bs-example-navbar-collapse-2">
+                <gcse:search></gcse:search>
+            </div>
 
-                    <!-- search box submenu -->
-                    <div class="collapse" id="bs-example-navbar-collapse-2">
-                        <gcse:search></gcse:search>
-                            </div>
-
-                </div><!-- /.container-fluid -->
-            </nav>
+        </div><!-- /.container-fluid -->
+    </nav>
 
 
-            <section id="home">
-                <div class="container lead">
-                    <br>
-                    <br>
-                    <br>
-                    <h1>Introduction to Genetics, Ethics, and Society </h1>
-                </div>
-            </section>
+    <section id="home">
+        <div class="container lead">
+            <br>
+            <br>
+            <br>
+            <h1>Introduction to Genetics, Ethics, and Society </h1>
+        </div>
+    </section>
 
-            <!-- Overview Section -->
-            <section id="Overview">
-                <div class="container lead">
-                    <hr class="star-primary">
-                    <h3>Why trainees ideated, developed, and taught this course</h3>
-                    <p>
-                    Human genetics research has an ethically fraught past, with a legacy of discrimination featuring racism, classism, ableism, and exploitation. 
-                    At the same time, the last decade has seen the rapid and unprecedented development of technologies capable of mapping, modeling, and manipulating genomes. 
-                    Despite this troubled history and uncertain future, most graduate training programs do not provide students with the tools to evaluate the broader impacts of research on society.
-                    We believe the future of scientific education is to train students to look at the broader impacts of research on society and their roles within this scientific structure.
-                    </p>
-                    <hr class="star-primary">
-                    <h3>Looking for resources?</h3>
-                    <p>
-                    We taught our course as a 3-week pilot course in spring 2022 and expanded it to a 10-week course in spring 2023.<br><br>
-                    We provide the <a href="curriculum2023.html"><b>full curriculum</b></a> for our 2023 course, including readings, slides, and thoughtfully designed active learning activities. To get a better sense of what this course entails, you can read through an <a href="description.html"><b>extended description of our course</b></a>.
-                    If instead you're interested in the <a href="curriculum.html">curriculum for our shorter pilot course</a>, you can find that as well.<br><br>
-                    For any questions, comments, or concerns, you can contact us at rpatel7[at]stanford.edu or raungar[at]stanford.edu.<br><br>
-                    For additional resources related to education on genetics, ethics, and society, see:
-                    <ul>
-                        <li><a href="https://pged.org/">Personal Genetics Education Project (pgEd)</a></li>
-                        <li><a href="https://elsihub.org/resources">ELSIhub</a></li>
-                        <li><a href="https://oac.cdlib.org/">Online Archive of California</a> for California-specific primary source documents</li>
-                        <li><a href="https://www.fredhutch.org/en/education-training/teachers/science-education-partnership/sep-curriculum/race-racism-genetics.html">Fred Hutch Cancer Center Curriculum on Race, Racism, and Genetics</a></li>
-                        <li><a href="https://depts.washington.edu/genomicssalon/course-resources/">University of Washington Genomics Salon</a></li>
-                        <li><a href="https://voices.uchicago.edu/geneticists-against-hate/">University of Chicago Geneticists Against Hate Reading Group</a></li>
-                        <li><a href="https://irhs.bu.edu/">Boston University BF/BI510: Institutional Racism in Health and Science</a></li>
-                    </ul>
-                    </p>
-                </div>
-            </section>  
-            </section>
+    <!-- Overview Section -->
+    <section id="Overview">
+        <div class="container lead">
+            <hr class="star-primary">
+            <h3>Why trainees ideated, developed, and taught this course</h3>
+            <p>
+                Human genetics research has an ethically fraught past, with a legacy of discrimination featuring racism,
+                classism, ableism, and exploitation.
+                At the same time, the last decade has seen the rapid and unprecedented development of technologies
+                capable of mapping, modeling, and manipulating genomes.
+                Despite this troubled history and uncertain future, most graduate training programs do not provide
+                students with the tools to evaluate the broader impacts of research on society.
+                We believe the future of scientific education is to train students to look at the broader impacts of
+                research on society and their roles within this scientific structure.
+            </p>
+            <hr class="star-primary">
+            <h3>Looking for resources?</h3>
+            <p>
+                We taught our course as a 3-week pilot course in spring 2022 and expanded it to a 10-week course in
+                spring 2023 and spring 2024.<br><br>
+                We provide the <a href="curriculum2024.html"><b>full curriculum</b></a> for our 2024 course, including
+                readings, slides, and thoughtfully designed active learning activities. To get a better sense of what
+                this course entails, you can read through an <a href="description.html"><b>extended description of our
+                        course</b></a>.
+                If instead you're interested in the <a href="curriculum.html">curriculum for our shorter pilot
+                    course</a> or a <a href="curriculum2023.html">2023 curriculum</a>, you can find that as
+                well.<br><br>
+                For any questions, comments, or concerns, you can contact us at rpatel7[at]stanford.edu or
+                raungar[at]stanford.edu.<br><br>
+                For additional resources related to education on genetics, ethics, and society, see:
+            <ul>
+                <li><a href="https://pged.org/">Personal Genetics Education Project (pgEd)</a></li>
+                <li><a href="https://elsihub.org/resources">ELSIhub</a></li>
+                <li><a href="https://oac.cdlib.org/">Online Archive of California</a> for California-specific primary
+                    source documents</li>
+                <li><a
+                        href="https://www.fredhutch.org/en/education-training/teachers/science-education-partnership/sep-curriculum/race-racism-genetics.html">Fred
+                        Hutch Cancer Center Curriculum on Race, Racism, and Genetics</a></li>
+                <li><a href="https://depts.washington.edu/genomicssalon/course-resources/">University of Washington
+                        Genomics Salon</a></li>
+                <li><a href="https://voices.uchicago.edu/geneticists-against-hate/">University of Chicago Geneticists
+                        Against Hate Reading Group</a></li>
+                <li><a href="https://irhs.bu.edu/">Boston University BF/BI510: Institutional Racism in Health and
+                        Science</a></li>
+            </ul>
+            </p>
+        </div>
+    </section>
+    </section>
 
-        </body>
-        <footer>
-            <small>
-                <center>
-                    © Credits: CR template
-                    <div style="display:none;" id="credit">
-                        [CR template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/dmsl/course-responsive-template" target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
-                    </div>
-                </center>
-            </small>
-        </footer>
-        
+</body>
+<footer>
+    <small>
+        <center>
+            © Credits: CR template
+            <div style="display:none;" id="credit">
+                [CR template available under Creative Commons CC BY 4.0 licence: <a
+                    href="https://github.com/dmsl/course-responsive-template"
+                    target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
+            </div>
+        </center>
+    </small>
+</footer>
+
 </html>

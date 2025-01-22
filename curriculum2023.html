@@ -1,487 +1,664 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>2023 Curriculum</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+<head>
+    <meta charset="utf-8" />
+    <title>2023 Curriculum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
          <script src="js/html5shiv.js"></script>
          <script src="js/respond.min.js"></script>
          <![endif]-->
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menucollapse.js"></script>
+    <script type="text/javascript" src="js/arrow78.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
-        <body id="page-top" class="index">
+<body id="page-top" class="index">
 
-            <!-- Navigation -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="curriculum2024.html">Curriculum</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="publications.html">Publications</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="people.html">People</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
                             <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="page-scroll">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="curriculum2023.html">Curriculum</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="publications.html">Publications</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="people.html">People</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
 
 
-                    <!-- search box submenu -->
-                    <div class="collapse" id="bs-example-navbar-collapse-2">
-                        <gcse:search></gcse:search>
-                            </div>
+            <!-- search box submenu -->
+            <div class="collapse" id="bs-example-navbar-collapse-2">
+                <gcse:search></gcse:search>
+            </div>
 
-                </div><!-- /.container-fluid -->
-            </nav>
+        </div><!-- /.container-fluid -->
+    </nav>
 
-            <section id="home">
-                <div class="container lead">
-                    <br>
-                    <br>
-                    <br>
-                    <h1>Curriculum</h1>
-                </div>
-            </section>
-            
-            <section id="content">
-                <div class="container lead">
-                    <hr class="star-primary">
-                    <h3 id="tab-2-title"><a href="Slides/2023_syllabus.pdf">Syllabus</a></h3>
-                    <hr class="star-primary">
-                    <h3 id="tab-2-title">Learning goals</h3>
-                    <p>
-                    1. Connect the historical context of genetics research to its modern-day practice </br>
-                    2. Evaluate the social and ethical implications of genetics research </br>
-                    3. Analyze how societal norms and structures, along with personal identities, biases, and
-                    responsibilities, impact the conduct of scientific research </br>
-                    </p>
-                    <hr class="star-primary">
-                    <h3>Overview</h3>
-                    <p><a href="#session1">Session 1: Course Introduction and History of Genetics</a> <br></p>
-                    <p><a href="#session2">Session 2: Introduction to Bioethics, Social Responsibility, and Community Engagement </a><br></p>
-                    <p><a href="#session3">Session 3: Race, Ancestry, and Genetics (Pt 1) </a><br></p>
-                    <p><a href="#session4">Session 4: Race, Ancestry, and Genetics (Pt 2) </a><br></p>
-                    <p><a href="#session5">Session 5: Behavior and Genetic Determinism </a><br></p>
-                    <p><a href="#session6">Session 6: Sex and Gender; Ability </a><br></p>
-                    <p><a href="#session7">Session 7: Screening and Selection </a><br></p>
-                    <p><a href="#session8">Session 8: Identification and Privacy </a><br></p>
-                    <p><a href="#session9">Session 9: Genetics in the Archives </a><br></p>
-                    <p><a href="#session10">Session 10: Self Reflection and Action </a><br></p>
-                    <hr class="star-primary">
-                </div>
-            </section>
-         <!-- Background Section -->
-            <section id="session_overview">
-                <div id="session1" class="container lead">
-                    <br>
-                    <h3>Session 1: Course Introduction and History of Genetics</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Define positionality, intersectionality, and privilege</li>
-                        <li>Understand how societal biases intersected with genetic research and medicine through the 20th century</li>
-                    </ul>
-                    <h4><a href="Slides/2023_session1_intro_history.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Students and instructors co-create classroom norms</li>
-                        <li>“Who’s in the room?” exercise: students anonymously describe identities they hold and reflect on the collection of identities in the classroom</li>
-                        <li><a href="Slides/2023_Session1_DiversityOfExperience.pdf">Privilege awareness exercise:</a> instructors read aloud various social and economic privilege statements and students privately note which statements they identify with</li>
-                        <li>Reflection on positionality: students journal about which identities they hold, and how their identities impact the way students interact with the world</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li>None</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.stanfordeugenics.com/">Stanford Eugenics History Project</a></li>
-                        <li><a href="https://www.ucpress.edu/book/9780520285064/eugenic-nation">Eugenic Nation: Faults and Frontiers of Better Breeding in Modern America</a> by A.M. Stern (esp. pages 3-11, 16-18)</li>
-                        <li><a href="https://carlzimmer.com/books/she-has-her-mothers-laugh/">She Has Her Mother’s Laugh: The Powers, Perversions, And Potential Of Heredity</a> by C. Zimmer (esp. Ch. 1-2)</li>
-                        <li><a href="https://www.linnean.org/learning/who-was-linnaeus/linnaeus-and-race">Linneaus and Race</a></li>
-                        <li><a href="https://www.theguardian.com/us-news/2020/jun/30/california-prisons-forced-sterilizations-belly-beast">Belly of the Beast: California’s dark history of forced sterilizations.</a> by S. Jindia, The Guardian</li>
-                        <li><a href="https://unidosus.org/blog/2021/12/16/the-long-history-of-forced-sterilization-of-latinas/">The long history of forced sterilization of Latinas</a></li>
-                    </ul>
-                </div>
-                <div id="session2" class="container lead">
-                    <br>
-                    <h3>Session 2: Introduction to Bioethics, Social Responsibility, and Community Engagement </h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Describe the principles of beneficence, non-maleficence, autonomy, and justice, and apply them to case studies</li>
-                        <li>Identify shortcomings of these four principles</li>
-                        <li>Understand the benefits of social responsibility and community-engaged research</li>
-                        <li>Identify key stakeholders and conflicts of stakeholdership in community-engaged research</li>
-                    </ul>
-                    <h4><a href="Slides/2023_session2_bioethics_socialresponsibility_communityengagement.pdf">Slides</a></h4>
-                    <ul>
-                        <li><a href="Slides/2023_session2_Martschenko_bioethics_socialresponsibility_communityengagement.pdf">Dr. Martschenko lecture</a></li>
-                    </ul>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li><a href="https://www.nytimes.com/video/us/1247467672743/blood-journey.html">Analysis of Havasupai Tribe v. the Arizona Board of Regents:</a> students identify stakeholders and discuss where and how conflicts arose between researchers and the Havasupai Tribe</li>
-                        <li><a href="Slides/2023_session2_CPBR_roles.pdf">Role-play exercise:</a> students are assigned roles as community members or researchers and co-design a research study using the principles of community-based participatory research</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li><a href="https://freerads.org/science-scope-full">Science Under the Scope</a> by Sophie Wang</li>
-                        <li><a href="https://www.nature.com/articles/nbt1205-1479">Should we make a fuss? A case for social responsibility in science</a> by J. Beckwith and F. Huang, Nature Biotechnology</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631672/">The Ethical Challenges of Socially Responsible Science</a> by D.B. Resnik and K.C. Elliott, Science</li>
-                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792497/">How IRBs View and Make Decisions About Social Risks</a> by R.L. Klitzman, Journal of Empirical Research on Human Research Ethics</li>
-                        <li><a href="https://www.scientificamerican.com/article/scientists-must-consider-the-risk-of-racist-misappropriation-of-research/">Scientists Must Consider the Risk of Racist Misappropriation of Research</a> by S. Trejo, R. Wedow, and D.O. Martschenko, Scientific American</li>
-                        <li><a href="https://www.nature.com/articles/s41467-018-05188-3">A framework for enhancing ethical genomic research with Indigenous communities</a> by K.G. Claw et al., Nature Communications</li>
-                        <li><a href="https://pubmed.ncbi.nlm.nih.gov/36055208/">Addressing underrepresentation in genomics research through community engagement</a> by A.A. Lemke et al., American Journal of Human Genetics</li>
-                    </ul>
-                </div>
-                <div id="session3" class="container lead">
-                    <br>
-                    <h3>Session 3: Race, Ancestry, Identity, and Genetics Pt 1 </h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Distinguish between race, ethnicity, ancestry, and nationality</li>
-                        <li>Differentiate between social identity and genetic ancestry, and in particular, understand how social identity is (often) discretized, while genetic ancestry is a continuum</li>
-                        <li>Recall historical and societal issues that impact modern mistrust of medicine across certain racial and ethnic groups</li>
-                        <li>Understand how social determinants of health impact genetic medicine and research</li>
-                    </ul>
-                    <h4><a href="Slides/2023_session3.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Word cloud exercise: students anonymously define race, ethnicity, ancestry, and nationality, and reflect on the resulting word clouds</li>
-                        <li>Analysis of race and ancestry in healthcare: students discuss case examples and identify who benefitted, who was harmed, and how society was impacted more broadly</li>
-                        <ul>
-                            <li>Henrietta Lacks: <a href="https://www.youtube.com/watch?v=pgB1IqGp8BE">video 1</a>, <a href="https://www.hopkinsmedicine.org/henriettalacks/">video 2</a></li>
-                            <li>Forced sterilization: <a href="https://www.youtube.com/watch?v=bXn3IzQTDOg">video 1</a>, <a href="https://www.youtube.com/watch?v=yoIuFkIH9OQ&ab_channel=JourneymanPictures">video 2</a></li>
-                            <li><a href="https://www.mdpi.com/2075-4698/12/2/33">Addressing Reproductive Healthcare Disparities through Equitable Carrier Screening: Medical Racism and Genetic Discrimination in United States’ History Highlights the Needs for Change in Obstetrical Genetics Care</a> by A. Arjunan et al., Societies</li>
-                            <li><a href="http://docuseek2.com.stanford.idm.oclc.org/cart/product/522#">Kidney dialysis treatment</a>: Robert Phillips' story</li>
-                        </ul>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li>None</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008624">What is ancestry?</a> by I. Mathieson and A. Scally, PLOS Genetics</li>
-                        <li><a href="https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new">Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field</a>, National Academies Press</li>
-                    </ul>
-                </div>
-                <div id="session4" class="container lead">
-                    <br>
-                    <h3>Session 4: Race, Ancestry, Identity, and Genetics Pt 2 </h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Describe societal perceptions of social identity (race, ethnicity, and nationality) and genetic ancestry, including racial essentialism</li>
-                        <li>Examine the consequences that these societal perceptions of social identity and genetic ancestry have on individuals and society broadly</li>
-                        <li>Critique scientific uses of social identity (race, ethnicity, and nationality) and genetic ancestry</li>
-                    </ul>
-                    <h4><a href="Slides/2023_session4.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li><a href="https://www.nytimes.com/2018/11/19/magazine/dna-test-black-family.html">Analysis of popular media</a>: students read a news article on genetic ancestry testing “surprises”, identify perceptions surrounding race and ancestry, and contrast genetic ancestry with social identities</li>
-                        <li><a href="https://pubmed.ncbi.nlm.nih.gov/34705035/">Analysis of scientific research</a>: students read an academic paper, identify how the authors defined “populations” for their analysis, and discuss the impact on the interpretation of the paper</li>
-                        <li><a href="https://www.nytimes.com/2018/10/17/us/white-supremacists-science-dna.html">Analysis of extremist views</a>: students read a news article on white supremacist views of genetics and ancestry, identify misconceptions about race and ancestry, and discuss researchers’ responsibilities to mitigate harm in such contexts</li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                         <li><a href="https://www.youtube.com/watch?v=KxLMjn4WPBY&ab_channel=TED">The Problem with Race-Based Medicine</a> by D. Roberts </li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                         <li><a href="https://arxiv.org/abs/1909.00892">Reading tea leaves? Polygenic scores and differences in traits among groups</a> by G.Coop, arXiv</li>
-                    </ul>
-                </div>
-                <div id="session5" class="container lead">
-                    <br>
-                    <h3>Session 5: Behavior and Genetic Determinism </h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Recognize how genetics research can be mis-used to justify genetic determinist viewpoints and the associated harms</li>
-                        <li>Describe current efforts by the research community to combat the weaponization of research, and articulate strategies that individual scientists can employ</li>
-                    </ul>
-                    <h4><a href="Slides/2023_session5_behavior.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Analysis of genetic determinism: students read two articles on the genetic basis of educational attainment, athleticism, or sexuality, and discuss societal implications of this research</li>
-                        <ul>
-                            <li>Educational attainment</li>
-                            <ul>
-                                <li><a href="https://lesacreduprintemps19.files.wordpress.com/2012/11/the-bell-curve.pdf">The Bell Curve</a> by R. Herrnstein and C. Murray, pages 320-322</li>
-                                <li><a href="https://press.princeton.edu/books/hardcover/9780691190808/the-genetic-lottery">The Genetic Lottery: Why DNA Matters for Social Equality</a> by P. Harden, pages 7-10</li>
-                            </ul>
-                            <li>Athleticism</li>
-                            <ul>
-                                <li><a href="https://www.theguardian.com/world/2000/nov/26/johnarlidge.theobserver">Black runners 'have speed genes'</a> by J. Arlidge, The Guardian</li>
-                                <li><a href="https://www.theatlantic.com/international/archive/2012/04/why-kenyans-make-such-great-runners-a-story-of-genes-and-cultures/256015/">Why Kenyans Make Such Great Runners: A Story of Genes and Cultures</a> by M. Fisher, The Atlantic</li>
-                            </ul>
-                            <li>Sexuality</li>
-                            <ul>
-                                <li><a href="https://www.science.org/doi/10.1126/science.8332896">A Linkage Between DNA Markers on the X Chromosome and Male Sexual Orientation</a> by D.H. Hamer et al., Science</li>
-                                <li><a href="https://www.science.org/doi/10.1126/science.aat7693">Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior</a> by A. Ganna et al., Science</li>
-                            </ul>
-                        </ul>
-                        <li>Analysis of FAQ utility: students read a <a href="https://www.nature.com/articles/s41562-019-0757-5">sociobehavioral genetics paper</a>, brainstorm questions, and evaluate whether their questions were successfully answered in the <a href="https://drive.google.com/file/d/1AzQ7PYcWs7219hXXv6keOGPTfB0eoQ69/view">FAQ accompanying the paper</a></li>
-                        <li>Reflection on social responsibility: students discuss whether researchers have a responsibility to combat the harms of genetic determinism and brainstorm potential actions</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                         <li><a href="https://www.nybooks.com/articles/2022/04/21/why-biology-is-not-destiny-genetic-lottery-kathryn-harden/">Why Biology Is Not Destiny</a> by J. Riskin and M.W. Feldman, The New York Review of Books (2022)</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.nybooks.com/articles/2022/06/09/why-biology-is-not-destiny-an-exchange/">‘Why Biology Is Not Destiny’: An Exchange</a>: K.P. Harden response to Feldman & Riskin, followed by J. Riskin and M.W. reply to Harden</li>
-                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9754080/">“The elephant in the room”: social responsibility in the production of sociogenomics research</a> by D.O. Martschenko, Biosocieties</li>
-                        <li><a href="https://www.nature.com/articles/s41588-021-00929-5">FoGS provides a public FAQ repository for social and behavioral genomic discoveries.</a> by D.O. Martschenko et al., Nature Genetics</li>
-                        <li><a href="https://www.broadinstitute.org/news/perspectives-complex-genetics-same-sex-sexual-behavior">Perspectives on the complex genetics of same-sex sexual behavior</a></li>
-                    </ul>
-                </div>
-                <div id="session6" class="container lead">
-                    <br>
-                    <h3>Session 6: Sex and Gender; Ability</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Distinguish the relationship between biological sex, gender identity, and sexuality through discussion of the role genetics plays in these concepts</li>
-                        <li>Examine the medicalization of identities and how it impacts society, medicine, and research</li>
-                        <li>Critique genetics studies and practices from a disability-rights perspective</li>
-                    </ul>
-                    <h4><a href="Slides/Session 6 Slides - Spring 2023.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Word cloud exercise: students anonymously define sex, gender, and sexuality, and reflect on the resulting word clouds</li>
-                        <li>Analysis of sex, gender, and sexuality in research: students read articles on biological sex, gender, or sexuality and discuss the implications for science and society</li>
-                        <ul>
-                            <li>Biological sex: discuss how current research defines biological sex</li>
-                            <ul>
-                                <li><a href="https://www.nature.com/articles/518288a">Sex redefined</a> by C. Ainsworth, Nature</li>
-                            </ul>
-                            <li>Gender: discuss how researchers should engage with the definitions of biological sex and gender identity</li>
-                            <ul>
-                                <li><a href="https://www.nature.com/articles/s41586-019-1657-6">Sex and gender analysis improves science and engineering</a> by C. Tannenbaum et al., Nature (Box 1)</li>
-                                <li><a href="http://genderedinnovations.stanford.edu/what-is-gendered-innovations.html">What is gendered innovations?</a></li>
-                                <li><a href="http://genderedinnovations.stanford.edu/case-studies/pain.html#tabs-1">Chronic pain: analyzing how sex and gender intersect</a></li>
-                            </ul>
-                            <li>Sexuality: discuss how research into the genetics of sexuality impacts the definition of sexuality</li>
-                            <ul>
-                                <li><a href="https://www.nature.com/articles/d41586-019-03282-0">Controversial ‘gay gene’ app provokes fears of a genetic Wild West</a> by A. Maxmen, Nature</li>
-                            </ul>
-                        </ul>
-                        <li>Role-play exercise: students role-play as a governing sports body conducting “sex verification” tests for athletes and discuss the challenges in making these decisions and their impacts on athletes</li>
-                        <ul>
-                        <li>Adapted from <a href="https://pged.org/">pged.org</a></li>
-                        </ul>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li><a href="https://onlinelibrary.wiley.com/doi/10.1002/hast.1385">If Not Now, Then When? Taking Disability Seriously in Bioethics</a> by D. Mukherjee, P.S. Tarsney, and K.L. Kirschner, Hastings Center Report</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.nature.com/articles/504377a">Adrienne Asch (1946–2013)</a> by D. Roberts, Nature</li>
-                        <li><a href="https://bsd.biomedcentral.com/articles/10.1186/s13293-021-00366-3">Gender-related variables for health research</a> by M.W. Nielsen et al., Biology of Sex Differences</li>
-                        <li><a href="https://www.nature.com/articles/d41586-023-01549-1">‘I am not a broken version of normal’ — autistic people argue for a stronger voice in research</a> by E. Rodriguez Mega, Nature</li>
-                        <li><a href="https://www.theatlantic.com/magazine/archive/2020/12/the-last-children-of-down-syndrome/616928/">The last children of Down syndrome</a> by S. Zhang, The Atlantic</li>
-                    </ul>
-                </div>
-                <div id="session7" class="container lead">
-                    <br>
-                    <h3>Session 7: Screening and Selection</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Understand the role of eugenics in the development of the prenatal genetic testing field</li>
-                        <li>Summarize the current landscape of prenatal genetic testing, carrier screening, embryo selection and gene editing</li>
-                        <li>Extrapolate the current and future implications of the currently available technologies with a focus on reproductive choice and disability rights</li>
-                        <li>Evaluate how ethics can help guide society towards ethical application of these technologies</li>
-                    </ul>
-                    <h4><a href="Slides/2023-7-reproductive.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Reflection on eugenics: students draw connections between the eugenics movement and reproductive health</li>
-                        <li>Analysis of current technologies: students discuss individual motivations and broader ethical implications at stake in contemporary <a href="Slides/Session 7 case study.pdf">case studies</a> of prenatal screening</li>
-                        <li>Analysis of potential future technologies: students evaluate pre-implantation genetic testing and germline genetic engineering through the lens of each of the four principles of bioethics</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                         <li><a href="https://www.nytimes.com/2023/03/04/opinion/gene-editing-crispr-fertility-medicine.html">Does gene editing have a future in reproductive medicine?</a> by E. Kirksey, The New York Times </li>
-                         <li><a href="https://www.cbsnews.com/news/fda-approves-hemgenix-most-expensive-drug-hemophilia-b/">FDA approves most expensive drug ever, a $3.5 million-per-dose gene therapy for hemophilia B</a>, CBS News</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.progress.org.uk/medical-advances-and-ethical-dilemmas-in-human-genome-editing/">Medical advances and ethical dilemmas in human genome editing</a> by P. Foong</li>
-                        <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMsr2105065">Problems with Using Polygenic Scores to Select Embryos</a> by P. Turley et al., New England Journal of Medicine</li>
-                        <li><a href="https://www.npr.org/sections/health-shots/2023/03/06/1158705095/genome-summit-gene-editing-ethics-crspr">Experts weigh medical advances in gene-editing with ethical dilemmas</a> by R. Stein, NPR</li>
-                        <li><a href="https://www.ajmc.com/view/fda-approves-gene-therapy-with-21m-price-tag-for-spinal-muscular-atrophy-in-pediatric-patients">FDA Approves Gene Therapy With $2.1M Price Tag for Spinal Muscular Atrophy in Pediatric Patients</a> by J. Rosenberg, American Journal of Managed Care</li>
-                        <li><a href="https://www.scientificamerican.com/article/a-new-era-of-designer-babies-may-be-based-on-overhyped-science/">A New Era of Designer Babies May Be Based on Overhyped Science</a> by L. Hercher, Scientific American</li>
-                    </ul>
-                </div>
-                <div id="session8" class="container lead">
-                    <br>
-                    <h3>Session 8: Identification and Privacy</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Analyze the role that government, private, and public databases play in the application of forensic genetics in the criminal justice system globally</li>
-                        <li>Examine risks and benefits of identification and privacy from private and public entities</li>
-                    </ul>
-                    <h4><a href="Slides/session8_2023.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Analysis of forensic genetics: students read case studies on the usage of forensic genetics and assess the benefits and harms of using genetic information in each instance</li>
-                        <ul>
-                            <li><a href="https://thehill.com/opinion/op-ed/249727-congress-should-support-access-to-post-conviction-dna-testing/">Congress should support access to post-conviction DNA testing</a> by K. Bloodsworth, The Hill</li>
-                            <li><a href="https://www.latimes.com/california/story/2020-12-08/man-in-the-window">The untold story of how the Golden State Killer was found: A covert operation and private DNA</a> by P. St. John, The Los Angeles Times</li>
-                            <li><a href="https://www.npr.org/2022/09/13/1122670742/rape-dna-san-francisco-lawsuit">A woman whose rape DNA led to her arrest sues the city of San Francisco</a>, The Associated Press</li>
-                            <li><a href="https://www.aaas.org/news/scientists-say-dna-can-reunite-separated-migrant-families">Scientists Say DNA Can Reunite Separated Migrant Families</a> by W. Beckwith, AAAS</li>
-                            <li><a href="https://www.nytimes.com/2020/06/17/world/asia/China-DNA-surveillance.html">China Is Collecting DNA From Tens of Millions of Men and Boys, Using U.S. Equipment</a> by S. Wee, The New York Times</li>
-                        </ul>
-                        <li>Analysis of data policies: students read privacy and consent policies for various consumer and research databases, and evaluate how well the benefits and harms are communicated to participants</li>
-                        <ul>
-                            <li><a href="Slides/8-23&me.pdf">23andMe</a></li>
-                            <li><a href="Slides/8-UKBiobank.pdf">UK Biobank</a></li>
-                            <li><a href="Slides/8-Ancestry.pdf">Ancestry DNA</a></li>
-                            <li><a href="Slides/8-H3Africa.pdf">H3Africa</a></li>
-                        </ul>
-                        <li>Reflection on social responsibility: students brainstorm potential harms posed by participants in genetic databases, and the social responsibilities of data stewards</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li>Data policies from 23andMe, UK Biobank, Ancestry, and H3Africa linked above</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9918397/">Re-envisioning community genetics: community empowerment in preventive genomics</a> by H. Wand et al., Journal of Community Genetics</li>
-                        <li><a href="https://www.nature.com/articles/s41576-022-00455-y">Sociotechnical safeguards for genomic data privacy</a> by Z. Wan et al., Nature Reviews Genetics</li>
-                        <li><a href="https://www.science.org/doi/10.1126/science.aau4832">Identity inference of genomic data using long-range familial searches</a> by Y. Erlich et al., Science</li>
-                        <li><a href="https://www.science.org/doi/10.1126/science.1229566">Identifying Personal Genomes by Surname Inference</a> by M. Gymrek, Science</li>
-                        <li><a href="https://www.nature.com/articles/s41559-023-02056-2">Inadvertent human genomic bycatch and intentional capture raise beneficial applications and ethical concerns with environmental DNA</a> by L. Whitmore et al., Nature Ecology & Evolution</li>
-                        <li><a href="https://www.nature.com/articles/s41564-023-01381-3">Reconstruction of the personal information from human genome reads in gut metagenome sequencing data</a> by Y. Tomofuji et al., Nature Microbiology</li>
-                    </ul>
-                </div>
-                <div id="session9" class="container lead">
-                    <br>
-                    <h3>Session 9: Genetics in the Archives</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Understand how individuals acted to counter the misuse of genetics research to further racist and sexist ideologies</li>
-                        <li>Connect historical examples of ethical problems to the modern-day case studies presented in this course</li>
-                        <li>Analyze how scientists’ ideologies impacted their interpretation of science</li>
-                    </ul>
-                    <h4> <a href="Slides/9-Lesson-Plan.pdf">Lesson Plan</a></h4>
-                    <ul>
-                        <li>Stanford affiliates can access the primary source documents used for this lesson by requesting <a href="Slides/9-BoxesRequested.pdf">these boxes</a> from <a href="https://library.stanford.edu/university-archives">Stanford University Archives</a></li>
-                        <li>Additional collections located in California can be browsed at the <a href="https://oac.cdlib.org/institutions/Stanford+University">Online Archive of California</a></li>
-                        <li>Information on local primary source archives and digital collections elsewhere in the United States can be found <a href="https://toledosattic.org/discover-resources/resources/state-regional-archives-us">here</a></li>
-                    </ul>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Analysis of primary source documents curated around 5 different topics:</li>
-                        <ul>
-                            <li>Activism around the proposed Center for the Study and Reduction of Violence</li>
-                            <li>Forced sterilization discussions in Chicano-focused journalism</li>
-                            <li>Discourse of race, genetics, and IQ throughout the 20th century</li>
-                            <li>Scientific activism and social responsibility in the 1970s</li>
-                            <li>Eugenics and anti-miscegenation</li>
-                        </ul>
-                    </ul>
-                    <h4> Pre-class readings</h4>
-                    <ul>
-                        <li>Activism around the proposed Center for the Study and Reduction of Violence:  <a target="_blank" href="Slides/9-ASHG.pdf">ASHG Facing Our History: Genetic basis for criminality</a> (highlighted green)</li>
-                        <li>Forced sterilization discussions in Chicano-focused journalism:  <a  target="_blank" href="Slides/9-ASHG.pdf">ASHG Facing Our History: Sterilization laws</a> (highlighted pink)</li>
-                        <li>Discourse of race, genetics, and IQ throughout the 20th century:  <a  target="_blank" href="Slides/9-ASHG.pdf">ASHG Facing Our History: Genetic Basis for Intelligence Differences Between Racialized Groups</a> (highlighted yellow)</li>
-                        <li>Scientific activism and social responsibility in the 1970s:  <a  target="_blank" href="Slides/9-sociobiology.pdf">The Cultural Politics of the Sociobiology Debate</a> (highlighted regions up to page 574)</li>
-                        <li>Eugenics and anti-miscegenation:  <a  href="https://unidosus.org/blog/2021/12/16/the-long-history-of-forced-sterilization-of-latinas/">The Long History of Forced Sterilization of Latinas</a></li>
-                    </ul>
-                </div>
-                <div id="session10" class="container lead">
-                    <br>
-                    <h3>Session 10: Self-Reflection and Action</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Evaluate your own positionality and its relationship to your work as a scientist</li>
-                        <li>Construct and reflect on viewpoints that recognise and relate to different positionalities</li>
-                        <li>Ideate ways to make existing academic structures more equitable, inclusive, and just; create actionable goals to do so</li>
-                    </ul>
-                    <h4> <a href="Slides/session10_2023.pdf">Slides</a></h4>
-                    <h4> Activities </h4>
-                    <ul>
-                        <li>Q&A on scientific activism with Professor Marc Feldman</li>
-                        <li>Reflection on the course: students note down their main takeaways from each class session on post-it notes around the classroom</li>
-                        <li>Reflection on reflexivity: students revisit their reflection on positionality and journal about how their positionality impacts their work as a researcher</li>
-                        <li>Reflection on post-course action: students independently brainstorm their “big dream” for science and identify actions they can take towards this goal over different timescales and different personal/professional spheres</li>
-                    </ul>
-                    <h4> Pre-class readings </h4>
-                    <ul>
-                        <li><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004817"> Echoes of the Past: Hereditarianism and A Troublesome Inheritance</a> by M. Feldman, PLOS Genetics</li>
-                    </ul>
-                    <h4> Supplemental readings </h4>
-                    <ul>
-                        <li><a href="https://journals.sagepub.com/doi/10.1177/030802269806101005">Reflexivity, an essential component for all research?</a> by L. Finlay, British Journal of Occupational Therapy</li>
-                    </ul>
-                </div>
-            </section>
-            
-                </div>
-            </section>
-            
+    <section id="home">
+        <div class="container lead">
+            <br>
+            <br>
+            <br>
+            <h1>Curriculum</h1>
+        </div>
+    </section>
 
-                            </body>
-                            
-                            <hr class="star-primary">
-                            <footer>
-                            <small>
-                            <center>
-                            Credits: CR template
-                            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-                            <div style="display:none;" id="credit">
-                                [CR template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/dmsl/course-responsive-template" target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
-                            </div>
-                            </center>
-                            </small>
-                            </footer>
-                            
-                            
-                            </html>
+    <section id="content">
+        <div class="container lead">
+            <hr class="star-primary">
+            <h3 id="tab-2-title"><a href="Slides/2023_syllabus.pdf">Syllabus</a></h3>
+            <hr class="star-primary">
+            <h3 id="tab-2-title"><a href="people2023.html">Teaching Team</a></h3>
+            <hr class="star-primary">
+            <h3 id="tab-2-title">Learning goals</h3>
+            <p>
+                1. Connect the historical context of genetics research to its modern-day practice </br>
+                2. Evaluate the social and ethical implications of genetics research </br>
+                3. Analyze how societal norms and structures, along with personal identities, biases, and
+                responsibilities, impact the conduct of scientific research </br>
+            </p>
+            <hr class="star-primary">
+            <h3>Overview</h3>
+            <p><a href="#session1">Session 1: Course Introduction and History of Genetics</a> <br></p>
+            <p><a href="#session2">Session 2: Introduction to Bioethics, Social Responsibility, and Community Engagement
+                </a><br></p>
+            <p><a href="#session3">Session 3: Race, Ancestry, and Genetics (Pt 1) </a><br></p>
+            <p><a href="#session4">Session 4: Race, Ancestry, and Genetics (Pt 2) </a><br></p>
+            <p><a href="#session5">Session 5: Behavior and Genetic Determinism </a><br></p>
+            <p><a href="#session6">Session 6: Sex and Gender; Ability </a><br></p>
+            <p><a href="#session7">Session 7: Screening and Selection </a><br></p>
+            <p><a href="#session8">Session 8: Identification and Privacy </a><br></p>
+            <p><a href="#session9">Session 9: Genetics in the Archives </a><br></p>
+            <p><a href="#session10">Session 10: Self Reflection and Action </a><br></p>
+            <hr class="star-primary">
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div id="session1" class="container lead">
+            <br>
+            <h3>Session 1: Course Introduction and History of Genetics</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Define positionality, intersectionality, and privilege</li>
+                <li>Understand how societal biases intersected with genetic research and medicine through the 20th
+                    century</li>
+            </ul>
+            <h4><a href="Slides/2023_session1_intro_history.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Students and instructors co-create classroom norms</li>
+                <li>“Who’s in the room?” exercise: students anonymously describe identities they hold and reflect on the
+                    collection of identities in the classroom</li>
+                <li><a href="Slides/2023_Session1_DiversityOfExperience.pdf">Privilege awareness exercise:</a>
+                    instructors read aloud various social and economic privilege statements and students privately note
+                    which statements they identify with</li>
+                <li>Reflection on positionality: students journal about which identities they hold, and how their
+                    identities impact the way students interact with the world</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li>None</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://www.stanfordeugenics.com/">Stanford Eugenics History Project</a></li>
+                <li><a href="https://www.ucpress.edu/book/9780520285064/eugenic-nation">Eugenic Nation: Faults and
+                        Frontiers of Better Breeding in Modern America</a> by A.M. Stern (esp. pages 3-11, 16-18)</li>
+                <li><a href="https://carlzimmer.com/books/she-has-her-mothers-laugh/">She Has Her Mother’s Laugh: The
+                        Powers, Perversions, And Potential Of Heredity</a> by C. Zimmer (esp. Ch. 1-2)</li>
+                <li><a href="https://www.linnean.org/learning/who-was-linnaeus/linnaeus-and-race">Linneaus and Race</a>
+                </li>
+                <li><a
+                        href="https://www.theguardian.com/us-news/2020/jun/30/california-prisons-forced-sterilizations-belly-beast">Belly
+                        of the Beast: California’s dark history of forced sterilizations.</a> by S. Jindia, The Guardian
+                </li>
+                <li><a href="https://unidosus.org/blog/2021/12/16/the-long-history-of-forced-sterilization-of-latinas/">The
+                        long history of forced sterilization of Latinas</a></li>
+            </ul>
+        </div>
+        <div id="session2" class="container lead">
+            <br>
+            <h3>Session 2: Introduction to Bioethics, Social Responsibility, and Community Engagement </h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Describe the principles of beneficence, non-maleficence, autonomy, and justice, and apply them to
+                    case studies</li>
+                <li>Identify shortcomings of these four principles</li>
+                <li>Understand the benefits of social responsibility and community-engaged research</li>
+                <li>Identify key stakeholders and conflicts of stakeholdership in community-engaged research</li>
+            </ul>
+            <h4><a href="Slides/2023_session2_bioethics_socialresponsibility_communityengagement.pdf">Slides</a></h4>
+            <ul>
+                <li><a href="Slides/2023_session2_Martschenko_bioethics_socialresponsibility_communityengagement.pdf">Dr.
+                        Martschenko lecture</a></li>
+            </ul>
+            <h4> Activities </h4>
+            <ul>
+                <li><a href="https://www.nytimes.com/video/us/1247467672743/blood-journey.html">Analysis of Havasupai
+                        Tribe v. the Arizona Board of Regents:</a> students identify stakeholders and discuss where and
+                    how conflicts arose between researchers and the Havasupai Tribe</li>
+                <li><a href="Slides/2023_session2_CPBR_roles.pdf">Role-play exercise:</a> students are assigned roles as
+                    community members or researchers and co-design a research study using the principles of
+                    community-based participatory research</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li><a href="https://freerads.org/science-scope-full">Science Under the Scope</a> by Sophie Wang</li>
+                <li><a href="https://www.nature.com/articles/nbt1205-1479">Should we make a fuss? A case for social
+                        responsibility in science</a> by J. Beckwith and F. Huang, Nature Biotechnology</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631672/">The Ethical Challenges of Socially
+                        Responsible Science</a> by D.B. Resnik and K.C. Elliott, Science</li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792497/">How IRBs View and Make Decisions
+                        About Social Risks</a> by R.L. Klitzman, Journal of Empirical Research on Human Research Ethics
+                </li>
+                <li><a
+                        href="https://www.scientificamerican.com/article/scientists-must-consider-the-risk-of-racist-misappropriation-of-research/">Scientists
+                        Must Consider the Risk of Racist Misappropriation of Research</a> by S. Trejo, R. Wedow, and
+                    D.O. Martschenko, Scientific American</li>
+                <li><a href="https://www.nature.com/articles/s41467-018-05188-3">A framework for enhancing ethical
+                        genomic research with Indigenous communities</a> by K.G. Claw et al., Nature Communications</li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/36055208/">Addressing underrepresentation in genomics
+                        research through community engagement</a> by A.A. Lemke et al., American Journal of Human
+                    Genetics</li>
+            </ul>
+        </div>
+        <div id="session3" class="container lead">
+            <br>
+            <h3>Session 3: Race, Ancestry, Identity, and Genetics Pt 1 </h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Distinguish between race, ethnicity, ancestry, and nationality</li>
+                <li>Differentiate between social identity and genetic ancestry, and in particular, understand how social
+                    identity is (often) discretized, while genetic ancestry is a continuum</li>
+                <li>Recall historical and societal issues that impact modern mistrust of medicine across certain racial
+                    and ethnic groups</li>
+                <li>Understand how social determinants of health impact genetic medicine and research</li>
+            </ul>
+            <h4><a href="Slides/2023_session3.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Word cloud exercise: students anonymously define race, ethnicity, ancestry, and nationality, and
+                    reflect on the resulting word clouds</li>
+                <li>Analysis of race and ancestry in healthcare: students discuss case examples and identify who
+                    benefitted, who was harmed, and how society was impacted more broadly</li>
+                <ul>
+                    <li>Henrietta Lacks: <a href="https://www.youtube.com/watch?v=pgB1IqGp8BE">video 1</a>, <a
+                            href="https://www.hopkinsmedicine.org/henriettalacks/">video 2</a></li>
+                    <li>Forced sterilization: <a href="https://www.youtube.com/watch?v=bXn3IzQTDOg">video 1</a>, <a
+                            href="https://www.youtube.com/watch?v=yoIuFkIH9OQ&ab_channel=JourneymanPictures">video 2</a>
+                    </li>
+                    <li><a href="https://www.mdpi.com/2075-4698/12/2/33">Addressing Reproductive Healthcare Disparities
+                            through Equitable Carrier Screening: Medical Racism and Genetic Discrimination in United
+                            States’ History Highlights the Needs for Change in Obstetrical Genetics Care</a> by A.
+                        Arjunan et al., Societies</li>
+                    <li><a href="http://docuseek2.com.stanford.idm.oclc.org/cart/product/522#">Kidney dialysis
+                            treatment</a>: Robert Phillips' story</li>
+                </ul>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li>None</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008624">What is
+                        ancestry?</a> by I. Mathieson and A. Scally, PLOS Genetics</li>
+                <li><a
+                        href="https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new">Using
+                        Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving
+                        Field</a>, National Academies Press</li>
+            </ul>
+        </div>
+        <div id="session4" class="container lead">
+            <br>
+            <h3>Session 4: Race, Ancestry, Identity, and Genetics Pt 2 </h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Describe societal perceptions of social identity (race, ethnicity, and nationality) and genetic
+                    ancestry, including racial essentialism</li>
+                <li>Examine the consequences that these societal perceptions of social identity and genetic ancestry
+                    have on individuals and society broadly</li>
+                <li>Critique scientific uses of social identity (race, ethnicity, and nationality) and genetic ancestry
+                </li>
+            </ul>
+            <h4><a href="Slides/2023_session4.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li><a href="https://www.nytimes.com/2018/11/19/magazine/dna-test-black-family.html">Analysis of popular
+                        media</a>: students read a news article on genetic ancestry testing “surprises”, identify
+                    perceptions surrounding race and ancestry, and contrast genetic ancestry with social identities</li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/34705035/">Analysis of scientific research</a>: students
+                    read an academic paper, identify how the authors defined “populations” for their analysis, and
+                    discuss the impact on the interpretation of the paper</li>
+                <li><a href="https://www.nytimes.com/2018/10/17/us/white-supremacists-science-dna.html">Analysis of
+                        extremist views</a>: students read a news article on white supremacist views of genetics and
+                    ancestry, identify misconceptions about race and ancestry, and discuss researchers’ responsibilities
+                    to mitigate harm in such contexts</li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=KxLMjn4WPBY&ab_channel=TED">The Problem with Race-Based
+                        Medicine</a> by D. Roberts </li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://arxiv.org/abs/1909.00892">Reading tea leaves? Polygenic scores and differences in
+                        traits among groups</a> by G.Coop, arXiv</li>
+            </ul>
+        </div>
+        <div id="session5" class="container lead">
+            <br>
+            <h3>Session 5: Behavior and Genetic Determinism </h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Recognize how genetics research can be mis-used to justify genetic determinist viewpoints and the
+                    associated harms</li>
+                <li>Describe current efforts by the research community to combat the weaponization of research, and
+                    articulate strategies that individual scientists can employ</li>
+            </ul>
+            <h4><a href="Slides/2023_session5_behavior.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Analysis of genetic determinism: students read two articles on the genetic basis of educational
+                    attainment, athleticism, or sexuality, and discuss societal implications of this research</li>
+                <ul>
+                    <li>Educational attainment</li>
+                    <ul>
+                        <li><a href="https://lesacreduprintemps19.files.wordpress.com/2012/11/the-bell-curve.pdf">The
+                                Bell Curve</a> by R. Herrnstein and C. Murray, pages 320-322</li>
+                        <li><a href="https://press.princeton.edu/books/hardcover/9780691190808/the-genetic-lottery">The
+                                Genetic Lottery: Why DNA Matters for Social Equality</a> by P. Harden, pages 7-10</li>
+                    </ul>
+                    <li>Athleticism</li>
+                    <ul>
+                        <li><a href="https://www.theguardian.com/world/2000/nov/26/johnarlidge.theobserver">Black
+                                runners 'have speed genes'</a> by J. Arlidge, The Guardian</li>
+                        <li><a
+                                href="https://www.theatlantic.com/international/archive/2012/04/why-kenyans-make-such-great-runners-a-story-of-genes-and-cultures/256015/">Why
+                                Kenyans Make Such Great Runners: A Story of Genes and Cultures</a> by M. Fisher, The
+                            Atlantic</li>
+                    </ul>
+                    <li>Sexuality</li>
+                    <ul>
+                        <li><a href="https://www.science.org/doi/10.1126/science.8332896">A Linkage Between DNA Markers
+                                on the X Chromosome and Male Sexual Orientation</a> by D.H. Hamer et al., Science</li>
+                        <li><a href="https://www.science.org/doi/10.1126/science.aat7693">Large-scale GWAS reveals
+                                insights into the genetic architecture of same-sex sexual behavior</a> by A. Ganna et
+                            al., Science</li>
+                    </ul>
+                </ul>
+                <li>Analysis of FAQ utility: students read a <a
+                        href="https://www.nature.com/articles/s41562-019-0757-5">sociobehavioral genetics paper</a>,
+                    brainstorm questions, and evaluate whether their questions were successfully answered in the <a
+                        href="https://drive.google.com/file/d/1AzQ7PYcWs7219hXXv6keOGPTfB0eoQ69/view">FAQ accompanying
+                        the paper</a></li>
+                <li>Reflection on social responsibility: students discuss whether researchers have a responsibility to
+                    combat the harms of genetic determinism and brainstorm potential actions</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li><a
+                        href="https://www.nybooks.com/articles/2022/04/21/why-biology-is-not-destiny-genetic-lottery-kathryn-harden/">Why
+                        Biology Is Not Destiny</a> by J. Riskin and M.W. Feldman, The New York Review of Books (2022)
+                </li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://www.nybooks.com/articles/2022/06/09/why-biology-is-not-destiny-an-exchange/">‘Why
+                        Biology Is Not Destiny’: An Exchange</a>: K.P. Harden response to Feldman & Riskin, followed by
+                    J. Riskin and M.W. reply to Harden</li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9754080/">“The elephant in the room”: social
+                        responsibility in the production of sociogenomics research</a> by D.O. Martschenko, Biosocieties
+                </li>
+                <li><a href="https://www.nature.com/articles/s41588-021-00929-5">FoGS provides a public FAQ repository
+                        for social and behavioral genomic discoveries.</a> by D.O. Martschenko et al., Nature Genetics
+                </li>
+                <li><a
+                        href="https://www.broadinstitute.org/news/perspectives-complex-genetics-same-sex-sexual-behavior">Perspectives
+                        on the complex genetics of same-sex sexual behavior</a></li>
+            </ul>
+        </div>
+        <div id="session6" class="container lead">
+            <br>
+            <h3>Session 6: Sex and Gender; Ability</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Distinguish the relationship between biological sex, gender identity, and sexuality through
+                    discussion of the role genetics plays in these concepts</li>
+                <li>Examine the medicalization of identities and how it impacts society, medicine, and research</li>
+                <li>Critique genetics studies and practices from a disability-rights perspective</li>
+            </ul>
+            <h4><a href="Slides/Session 6 Slides - Spring 2023.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Word cloud exercise: students anonymously define sex, gender, and sexuality, and reflect on the
+                    resulting word clouds</li>
+                <li>Analysis of sex, gender, and sexuality in research: students read articles on biological sex,
+                    gender, or sexuality and discuss the implications for science and society</li>
+                <ul>
+                    <li>Biological sex: discuss how current research defines biological sex</li>
+                    <ul>
+                        <li><a href="https://www.nature.com/articles/518288a">Sex redefined</a> by C. Ainsworth, Nature
+                        </li>
+                    </ul>
+                    <li>Gender: discuss how researchers should engage with the definitions of biological sex and gender
+                        identity</li>
+                    <ul>
+                        <li><a href="https://www.nature.com/articles/s41586-019-1657-6">Sex and gender analysis improves
+                                science and engineering</a> by C. Tannenbaum et al., Nature (Box 1)</li>
+                        <li><a href="http://genderedinnovations.stanford.edu/what-is-gendered-innovations.html">What is
+                                gendered innovations?</a></li>
+                        <li><a href="http://genderedinnovations.stanford.edu/case-studies/pain.html#tabs-1">Chronic
+                                pain: analyzing how sex and gender intersect</a></li>
+                    </ul>
+                    <li>Sexuality: discuss how research into the genetics of sexuality impacts the definition of
+                        sexuality</li>
+                    <ul>
+                        <li><a href="https://www.nature.com/articles/d41586-019-03282-0">Controversial ‘gay gene’ app
+                                provokes fears of a genetic Wild West</a> by A. Maxmen, Nature</li>
+                    </ul>
+                </ul>
+                <li>Role-play exercise: students role-play as a governing sports body conducting “sex verification”
+                    tests for athletes and discuss the challenges in making these decisions and their impacts on
+                    athletes</li>
+                <ul>
+                    <li>Adapted from <a href="https://pged.org/">pged.org</a></li>
+                </ul>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li><a href="https://onlinelibrary.wiley.com/doi/10.1002/hast.1385">If Not Now, Then When? Taking
+                        Disability Seriously in Bioethics</a> by D. Mukherjee, P.S. Tarsney, and K.L. Kirschner,
+                    Hastings Center Report</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://www.nature.com/articles/504377a">Adrienne Asch (1946–2013)</a> by D. Roberts,
+                    Nature</li>
+                <li><a href="https://bsd.biomedcentral.com/articles/10.1186/s13293-021-00366-3">Gender-related variables
+                        for health research</a> by M.W. Nielsen et al., Biology of Sex Differences</li>
+                <li><a href="https://www.nature.com/articles/d41586-023-01549-1">‘I am not a broken version of normal’ —
+                        autistic people argue for a stronger voice in research</a> by E. Rodriguez Mega, Nature</li>
+                <li><a
+                        href="https://www.theatlantic.com/magazine/archive/2020/12/the-last-children-of-down-syndrome/616928/">The
+                        last children of Down syndrome</a> by S. Zhang, The Atlantic</li>
+            </ul>
+        </div>
+        <div id="session7" class="container lead">
+            <br>
+            <h3>Session 7: Screening and Selection</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Understand the role of eugenics in the development of the prenatal genetic testing field</li>
+                <li>Summarize the current landscape of prenatal genetic testing, carrier screening, embryo selection and
+                    gene editing</li>
+                <li>Extrapolate the current and future implications of the currently available technologies with a focus
+                    on reproductive choice and disability rights</li>
+                <li>Evaluate how ethics can help guide society towards ethical application of these technologies</li>
+            </ul>
+            <h4><a href="Slides/2023-7-reproductive.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Reflection on eugenics: students draw connections between the eugenics movement and reproductive
+                    health</li>
+                <li>Analysis of current technologies: students discuss individual motivations and broader ethical
+                    implications at stake in contemporary <a href="Slides/Session 7 case study.pdf">case studies</a> of
+                    prenatal screening</li>
+                <li>Analysis of potential future technologies: students evaluate pre-implantation genetic testing and
+                    germline genetic engineering through the lens of each of the four principles of bioethics</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li><a href="https://www.nytimes.com/2023/03/04/opinion/gene-editing-crispr-fertility-medicine.html">Does
+                        gene editing have a future in reproductive medicine?</a> by E. Kirksey, The New York Times </li>
+                <li><a href="https://www.cbsnews.com/news/fda-approves-hemgenix-most-expensive-drug-hemophilia-b/">FDA
+                        approves most expensive drug ever, a $3.5 million-per-dose gene therapy for hemophilia B</a>,
+                    CBS News</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a
+                        href="https://www.progress.org.uk/medical-advances-and-ethical-dilemmas-in-human-genome-editing/">Medical
+                        advances and ethical dilemmas in human genome editing</a> by P. Foong</li>
+                <li><a href="https://www.nejm.org/doi/full/10.1056/NEJMsr2105065">Problems with Using Polygenic Scores
+                        to Select Embryos</a> by P. Turley et al., New England Journal of Medicine</li>
+                <li><a
+                        href="https://www.npr.org/sections/health-shots/2023/03/06/1158705095/genome-summit-gene-editing-ethics-crspr">Experts
+                        weigh medical advances in gene-editing with ethical dilemmas</a> by R. Stein, NPR</li>
+                <li><a
+                        href="https://www.ajmc.com/view/fda-approves-gene-therapy-with-21m-price-tag-for-spinal-muscular-atrophy-in-pediatric-patients">FDA
+                        Approves Gene Therapy With $2.1M Price Tag for Spinal Muscular Atrophy in Pediatric Patients</a>
+                    by J. Rosenberg, American Journal of Managed Care</li>
+                <li><a
+                        href="https://www.scientificamerican.com/article/a-new-era-of-designer-babies-may-be-based-on-overhyped-science/">A
+                        New Era of Designer Babies May Be Based on Overhyped Science</a> by L. Hercher, Scientific
+                    American</li>
+            </ul>
+        </div>
+        <div id="session8" class="container lead">
+            <br>
+            <h3>Session 8: Identification and Privacy</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Analyze the role that government, private, and public databases play in the application of forensic
+                    genetics in the criminal justice system globally</li>
+                <li>Examine risks and benefits of identification and privacy from private and public entities</li>
+            </ul>
+            <h4><a href="Slides/session8_2023.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Analysis of forensic genetics: students read case studies on the usage of forensic genetics and
+                    assess the benefits and harms of using genetic information in each instance</li>
+                <ul>
+                    <li><a
+                            href="https://thehill.com/opinion/op-ed/249727-congress-should-support-access-to-post-conviction-dna-testing/">Congress
+                            should support access to post-conviction DNA testing</a> by K. Bloodsworth, The Hill</li>
+                    <li><a href="https://www.latimes.com/california/story/2020-12-08/man-in-the-window">The untold story
+                            of how the Golden State Killer was found: A covert operation and private DNA</a> by P. St.
+                        John, The Los Angeles Times</li>
+                    <li><a href="https://www.npr.org/2022/09/13/1122670742/rape-dna-san-francisco-lawsuit">A woman whose
+                            rape DNA led to her arrest sues the city of San Francisco</a>, The Associated Press</li>
+                    <li><a href="https://www.aaas.org/news/scientists-say-dna-can-reunite-separated-migrant-families">Scientists
+                            Say DNA Can Reunite Separated Migrant Families</a> by W. Beckwith, AAAS</li>
+                    <li><a href="https://www.nytimes.com/2020/06/17/world/asia/China-DNA-surveillance.html">China Is
+                            Collecting DNA From Tens of Millions of Men and Boys, Using U.S. Equipment</a> by S. Wee,
+                        The New York Times</li>
+                </ul>
+                <li>Analysis of data policies: students read privacy and consent policies for various consumer and
+                    research databases, and evaluate how well the benefits and harms are communicated to participants
+                </li>
+                <ul>
+                    <li><a href="Slides/8-23&me.pdf">23andMe</a></li>
+                    <li><a href="Slides/8-UKBiobank.pdf">UK Biobank</a></li>
+                    <li><a href="Slides/8-Ancestry.pdf">Ancestry DNA</a></li>
+                    <li><a href="Slides/8-H3Africa.pdf">H3Africa</a></li>
+                </ul>
+                <li>Reflection on social responsibility: students brainstorm potential harms posed by participants in
+                    genetic databases, and the social responsibilities of data stewards</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li>Data policies from 23andMe, UK Biobank, Ancestry, and H3Africa linked above</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9918397/">Re-envisioning community genetics:
+                        community empowerment in preventive genomics</a> by H. Wand et al., Journal of Community
+                    Genetics</li>
+                <li><a href="https://www.nature.com/articles/s41576-022-00455-y">Sociotechnical safeguards for genomic
+                        data privacy</a> by Z. Wan et al., Nature Reviews Genetics</li>
+                <li><a href="https://www.science.org/doi/10.1126/science.aau4832">Identity inference of genomic data
+                        using long-range familial searches</a> by Y. Erlich et al., Science</li>
+                <li><a href="https://www.science.org/doi/10.1126/science.1229566">Identifying Personal Genomes by
+                        Surname Inference</a> by M. Gymrek, Science</li>
+                <li><a href="https://www.nature.com/articles/s41559-023-02056-2">Inadvertent human genomic bycatch and
+                        intentional capture raise beneficial applications and ethical concerns with environmental
+                        DNA</a> by L. Whitmore et al., Nature Ecology & Evolution</li>
+                <li><a href="https://www.nature.com/articles/s41564-023-01381-3">Reconstruction of the personal
+                        information from human genome reads in gut metagenome sequencing data</a> by Y. Tomofuji et al.,
+                    Nature Microbiology</li>
+            </ul>
+        </div>
+        <div id="session9" class="container lead">
+            <br>
+            <h3>Session 9: Genetics in the Archives</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Understand how individuals acted to counter the misuse of genetics research to further racist and
+                    sexist ideologies</li>
+                <li>Connect historical examples of ethical problems to the modern-day case studies presented in this
+                    course</li>
+                <li>Analyze how scientists’ ideologies impacted their interpretation of science</li>
+            </ul>
+            <h4> <a href="Slides/9-Lesson-Plan.pdf">Lesson Plan</a></h4>
+            <ul>
+                <li>Stanford affiliates can access the primary source documents used for this lesson by requesting <a
+                        href="Slides/9-BoxesRequested.pdf">these boxes</a> from <a
+                        href="https://library.stanford.edu/university-archives">Stanford University Archives</a></li>
+                <li>Additional collections located in California can be browsed at the <a
+                        href="https://oac.cdlib.org/institutions/Stanford+University">Online Archive of California</a>
+                </li>
+                <li>Information on local primary source archives and digital collections elsewhere in the United States
+                    can be found <a
+                        href="https://toledosattic.org/discover-resources/resources/state-regional-archives-us">here</a>
+                </li>
+            </ul>
+            <h4> Activities </h4>
+            <ul>
+                <li>Analysis of primary source documents curated around 5 different topics:</li>
+                <ul>
+                    <li>Activism around the proposed Center for the Study and Reduction of Violence</li>
+                    <li>Forced sterilization discussions in Chicano-focused journalism</li>
+                    <li>Discourse of race, genetics, and IQ throughout the 20th century</li>
+                    <li>Scientific activism and social responsibility in the 1970s</li>
+                    <li>Eugenics and anti-miscegenation</li>
+                </ul>
+            </ul>
+            <h4> Pre-class readings</h4>
+            <ul>
+                <li>Activism around the proposed Center for the Study and Reduction of Violence: <a target="_blank"
+                        href="Slides/9-ASHG.pdf">ASHG Facing Our History: Genetic basis for criminality</a> (highlighted
+                    green)</li>
+                <li>Forced sterilization discussions in Chicano-focused journalism: <a target="_blank"
+                        href="Slides/9-ASHG.pdf">ASHG Facing Our History: Sterilization laws</a> (highlighted pink)</li>
+                <li>Discourse of race, genetics, and IQ throughout the 20th century: <a target="_blank"
+                        href="Slides/9-ASHG.pdf">ASHG Facing Our History: Genetic Basis for Intelligence Differences
+                        Between Racialized Groups</a> (highlighted yellow)</li>
+                <li>Scientific activism and social responsibility in the 1970s: <a target="_blank"
+                        href="Slides/9-sociobiology.pdf">The Cultural Politics of the Sociobiology Debate</a>
+                    (highlighted regions up to page 574)</li>
+                <li>Eugenics and anti-miscegenation: <a
+                        href="https://unidosus.org/blog/2021/12/16/the-long-history-of-forced-sterilization-of-latinas/">The
+                        Long History of Forced Sterilization of Latinas</a></li>
+            </ul>
+        </div>
+        <div id="session10" class="container lead">
+            <br>
+            <h3>Session 10: Self-Reflection and Action</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Evaluate your own positionality and its relationship to your work as a scientist</li>
+                <li>Construct and reflect on viewpoints that recognise and relate to different positionalities</li>
+                <li>Ideate ways to make existing academic structures more equitable, inclusive, and just; create
+                    actionable goals to do so</li>
+            </ul>
+            <h4> <a href="Slides/session10_2023.pdf">Slides</a></h4>
+            <h4> Activities </h4>
+            <ul>
+                <li>Q&A on scientific activism with Professor Marc Feldman</li>
+                <li>Reflection on the course: students note down their main takeaways from each class session on post-it
+                    notes around the classroom</li>
+                <li>Reflection on reflexivity: students revisit their reflection on positionality and journal about how
+                    their positionality impacts their work as a researcher</li>
+                <li>Reflection on post-course action: students independently brainstorm their “big dream” for science
+                    and identify actions they can take towards this goal over different timescales and different
+                    personal/professional spheres</li>
+            </ul>
+            <h4> Pre-class readings </h4>
+            <ul>
+                <li><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004817"> Echoes of
+                        the Past: Hereditarianism and A Troublesome Inheritance</a> by M. Feldman, PLOS Genetics</li>
+            </ul>
+            <h4> Supplemental readings </h4>
+            <ul>
+                <li><a href="https://journals.sagepub.com/doi/10.1177/030802269806101005">Reflexivity, an essential
+                        component for all research?</a> by L. Finlay, British Journal of Occupational Therapy</li>
+            </ul>
+        </div>
+    </section>
+
+    </div>
+    </section>
+
+
+</body>
+
+<hr class="star-primary">
+<footer>
+    <small>
+        <center>
+            Credits: CR template
+            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png" /></a>
+            <div style="display:none;" id="credit">
+                [CR template available under Creative Commons CC BY 4.0 licence: <a
+                    href="https://github.com/dmsl/course-responsive-template"
+                    target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
+            </div>
+        </center>
+    </small>
+</footer>
+
+
+</html>

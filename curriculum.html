@@ -1,335 +1,390 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>2022 Curriculum</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+<head>
+    <meta charset="utf-8" />
+    <title>2022 Curriculum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
          <script src="js/html5shiv.js"></script>
          <script src="js/respond.min.js"></script>
          <![endif]-->
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menucollapse.js"></script>
+    <script type="text/javascript" src="js/arrow78.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
-        <body id="page-top" class="index">
+<body id="page-top" class="index">
 
-            <!-- Navigation -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="curriculum2024.html">Curriculum</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="publications.html">Publications</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="people.html">People</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
                             <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="page-scroll">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="curriculum2023.html">Curriculum</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="publications.html">Publications</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="people.html">People</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a onclick="javascript:$('#bs-example-navbar-collapse-2').toggle();">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
 
 
-                    <!-- search box submenu -->
-                    <div class="collapse" id="bs-example-navbar-collapse-2">
-                        <gcse:search></gcse:search>
-                            </div>
+            <!-- search box submenu -->
+            <div class="collapse" id="bs-example-navbar-collapse-2">
+                <gcse:search></gcse:search>
+            </div>
 
-                </div><!-- /.container-fluid -->
-            </nav>
+        </div><!-- /.container-fluid -->
+    </nav>
 
-            <section id="home">
-                <div class="container lead">
-                    <br>
-                    <br>
-                    <br>
-                    <h1>Curriculum (2022)</h1>
-                </div>
-            </section>
-            
-            <section id="content">
-                <div class="container lead">
-                    <hr class="star-primary">
-                    <h3 id="tab-2-title"><a href="syllabus.pdf">Syllabus</a></h3>
-                    <hr class="star-primary">
-                    <h3 id="tab-2-title">Learning goals</h3>
-                    <p>
-                    1. Connect the historical context of genetics research to its modern-day practice </br>
-                    2. Evaluate the social and ethical implications of genetics research </br>
-                    3. Analyze how societal norms and structures, along with personal identities, biases, and
-                    responsibility, impact the conduct of scientific research </br>
-                    </p>
-                    <hr class="star-primary">
-                    <h3>Overview</h3>
-                    <p><a href="#session1">Session 1: Introduction to Bioethics and Society</a> <br></p>
-                    <p><a href="#session2">Session 2. History of Heredity </a><br></p>
-                    <p><a href="#session3">Session 3. Introduction to Human Genetic Data </a><br></p>
-                    <p><a href="#session4">Session 4. Race, Ancestry, Identity, and Genetics </a><br></p>
-                    <p><a href="#session5">Session 5. Reproductive Genetics; Positionality </a><br></p>
-                    <p><a href="#session6">Session 6. Criminal Justice; Action </a><br></p>
-                    </p>
-                    <hr class="star-primary">
-                </div>
-            </section>
-         <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session1">Session 1: Introduction to Bioethics and Society</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Describe personal identities and use this to co-create ground norms for discussions throughout the course </li>
-                        <li>Evaluate different ethical frameworks by applying the four principles of bioethics to case studies </li>
-                        <li>Identify the ways in which societal structures and norms impact science </li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                        <li>Read: a short primer on intersectionality, positionality, and privilege & the four principles of medical ethics</li>
-                        <li>Read: the last section of Macklin 2003, "Applying the four principles" ('Genetic manipulation to produce germline transmissible genetic enhancement', beginning at the bottom of p. 278)</li>
-                    </ul>
-                    <h4> In-class readings </h4>
-                    <ul>
-                        <li>Abridged version of <a href="https://freerads.org/science-scope-full">Science Under the Scope</a>  by Sophie Wang</li>
-                    </ul>
-                    <h4> Optional readings </h4>
-                    <ul>
-                        <li>Gillon 2003, "Four scenarios -- the section titled 'Genetic manipulation to produce germline transmissible genetic enhancement' is relevant.</li>
-                        <li>Harris 2003, "In praise of unprincipled ethics" -- Case II (beginning p. 306) is relevant.</li>
-                        <li>Callahan 2003, "Principlism and communitarianism"</li>
-                        <li>Campbell 2003, "The virtues (and vices) of the four principles"</li>
-                        <li>Greely 2019, "He Jiankui, embryo editing, CCR5, the London patient, and jumping to conclusions"</li>
-                    </ul>
-                    <a target="_blank" href="Slides/session1_bioethics_science&society.pdf" class="btn btn-primary default">Session 1 Slides &raquo;</a></p>
-                    <p>
-                    </p>
-                </div>
-            </section>
-            <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session2">Session 2. History of Heredity</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Recall how the study of heredity and genetics has developed over time </li>
-                        <li>Understand how societal biases intersected with knowledge of heredity/genetics to justify early scientific thought and 19th/20th century eugenics movements </li>
-                        <li>Analyze how historical context impacts modern-day science through the specific examples of eugenics and genome editing</li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                        <li>Read: highlighted sections on pages 3-11, 16-18 of Eugenic Nation by Alexandra Minna Stern </li>
-                        <li>Read: highlighted sections on pages 4-10 of Ch. 1, She Has Her Mother's Laugh by Carl Zimmer </li>
-                        <li>Read: highlighted sections on pages 14-19, 23-30 of Ch. 2, She Has Her Mother's Laugh by Carl Zimmer </li>
-                    </ul>
-                    <a target="_blank" href="Slides/session2_history_of_heredity.pdf" class="btn btn-primary default">Session 2 Slides &raquo;</a></p>
-                    </div>
-                </div>
-            </section>
-                    <p>
-                    </p>
-                </div>
-            </section>
-                 <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session3">Session 3. Introduction to Human Genetic Data</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li> Identify limitations and concerns around the collection, use, and analysis of human genetic data </li>
-                        <li> Develop an understanding of the current landscape of genomic data stewardship </li>
-                        <li> Identify key stakeholders and conflicts of stakeholdership in the collection, use, and analysis of human genetic data </li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <p>What does the landscape of attitudes towards genetics look like around you? Ask 2-5 people in your life (friends, family, colleagues, community members, etc.) about their impressions of genetic studies and/or direct-to-consumer genetic testing. Some example questions: </p>
-                    <ul>
-                        <li> Have you / do you plan on using a direct-to-consumer genetic testing service like Ancestry or 23&Me? Why or why not? </li>
-                        <li> How would you feel about being part of a genetic research study? What questions would you have? </li>
-                        <li> What questions or concerns do you have about genetic testing / genetic data? </li>
-                    </ul>
-                    <h4> In-class readings </h4>
-                    <ul>
-                        <li><a href="https://www.23andme.com/legal/privacy/">23andMe</a>  : note that the additional links at the bottom of the page may also be helpful, such as the test info</li>
-                        <li><a href="https://www.ukbiobank.ac.uk/explore-your-participation/basis-of-your-participation">UK Biobank</a> </li>
-                        <li><a href="https://www.ancestry.com/c/legal/privacystatement">Ancestry</a> </li>
-                        <li><a href="https://h3africa.org/wp-content/uploads/2020/06/H3Africa-Consortium-Data-Access-Release-Policy-April-2020.pdf">H3Africa</a> </li>
-                    </ul>
-                    <h4> Optional readings </h4>
-                    <p>The Havasupai Tribe vs ASU</p>
-                    <ul>
-                        <li>Nanibaa’ Garrison. Genomic Justice for Native Americans: Impact of the Havasupai Case on Genetic Research. Sci Technol Human Values. 2012 </li>
-                        <li>Robyn Sterling. Genetic Research among the Havasupai: A Cautionary Tale. AMA Journal of Ethics. 2012 </li>
-                        <li>Havasupai Tribe v Arizona Board of Regents, 220 Ariz. 214, 222 (2008) </li>
-                    </ul>
-                        <p>More on Indigenous Communities and Genetic Data</p>
-                    <ul>
-                        <li>Claw et al. Perspectives on Genetic Research: Results From a Survey of Navajo Community Members. Front. Genet., 02 December 2021 </li>
-                        <li>Claw et al. A framework for enhancing ethical genomic research with Indigenous communities. Nat Comm. 2018 </li>
-                    </ul>
-                     <p>General Overview of Understanding Ownership and Privacy of Data</p>
-                    <ul>
-                        <li>Segert. Understanding Ownership and Privacy of Genetic Data. 28 November 2018. </li>
-                    </ul>
-                    <a target="_blank" href="Slides/session3_human_genetic_data.pdf" class="btn btn-primary default">Session 3 Slides &raquo;</a></p>
-                    <p>
-                    </p>
-                </div>
-            </section>
-                 <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session4">Session 4. Race, Ancestry, Identity, and Genetics</h3>
-                    <h4> Learning objectives </h4>
-                    <ul>
-                        <li>Examine how genetic ancestry and race are used in current genetic studies </li>
-                        <li>Evaluate inconsistencies and uncertainties in how race, ethnicity, and ancestry are defined and used in genetics </li>
-                        <li>Assess the risks and benefits of using genetic ancestry and race in current genetic studies and identify how to mitigate risks </li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                        <li>Read: Harmon 2018, "Why White Supremacists Are Chugging Milk (and Why Geneticists Are Alarmed)" </li>
-                        <li>Read: Lewis et al. 2022, "Getting Genetic Ancestry Right for Science and Society" </li>
-                    </ul>
-                    <h4> Optional readings </h4>
-                    <ul>
-                        <li>Davis, L. K. (n.d.). Human Genetics Needs an Antiracism Plan. Scientific American. </li>
-                        <li>Duello, T. M., Rivedal, S., Wickland, C., & Weller, A. (2021). Race and genetics versus ‘race’ in genetics: A systematic review of the use of African ancestry in genetic studies. Evolution, Medicine, and Public Health, 9(1), 232–245. </li>
-                        <li>Popejoy, A. B. (2021). Too many scientists still say Caucasian. Nature, 596(7873), 463–463. </li>
-                        <li>Roth, W. D., & Ivemark, B. (2018). Genetic Options: The Impact of Genetic Ancestry Testing on Consumers’ Racial and Ethnic Identities. American Journal of Sociology, 124(1), 150–184. </li>
-                        <li>Roth, W. D., Yaylacı, Ş., Jaffe, K., & Richardson, L. (2020). Do genetic ancestry tests increase racial essentialism? Findings from a randomized controlled trial. PLOS ONE, 15(1), e0227399.</li>
-                        <li>TallBear, K., & Bolnick, D. A. (n.d.). “Native American DNA” Tests: What are the Risks to Tribes? </li>
-                        <li>Vilhjálmsson, B. J., & Nordborg, M. (2013). The nature of confounding in genome-wide association studies. Nature Reviews Genetics, 14(1), 1–2. </li>
-                    </ul>
-                    <a target="_blank" href="Slides/s4.pdf" class="btn btn-primary default">Session 4 Slides &raquo;</a></p>
-                    <p>
-                    </p>
-                </div>
-            </section>
-                 <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session5">Session 5. Reproductive Genetics; Positionality</h3>
-                    <h4> Learning objectives </h4>
-                    <p>Ethical Issues in Reproductive Genetics</p>
-                    <ul>
-                        <li>Understand the role of eugenics in the development of the prenatal genetic testing field </li>
-                        <li>Summarize the current landscape of prenatal genetic testing, carrier screening, and embryo selection </li>
-                        <li>Extrapolate the future implications of the currently available technologies </li>
-                        <li>Evaluate how principle-based ethics can help guide society towards ethical application of these technologies </li>
-                    </ul>
-                    <p>Positionality</p>
-                    <ul>
-                        <li>Evaluate your own positionality and its relationship to your work as a scientist </li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                        <li>Read: "The Last Children of Down Syndrome" by Sarah Zhang </li>
-                    </ul>
-                    <h4> Optional readings </h4>
-                    <ul>
-                        <li>Parens and Asch 2003. "Disability Rights Critique of Prenatal Genetic Testing: Reflections and Recommendations". </li>
-                        <li>Vaimberg et al 2021. "Project Inclusive Genetics: Exploring the impact of patient-centered counseling training on physical disability bias in the prenatal setting".  </li>
-                        <li>Hercher 2021. "A New Era of Designer Babies May Be Based on Overhyped Science".  </li>
-                        <li>Turley et al 2021. "Problems with Using Polygenic Scores to Select Embryos". </li>
-                    </ul>
-                    <h4> Course run </h4>
-                    <a target="_blank" href="Slides/session5_reproductivegenetics_reflection.pdf" class="btn btn-primary default">Session 5 Slides &raquo;</a></p>
-                    <p>
-                    </p>
-                </div>
-            </section>
-                 <!-- Background Section -->
-            <section id="session_overview">
-                <div class="container lead">
-                    <h3 id="session6">Session 6. Criminal Justice; Ideation and Action </h3>
-                    <h4> Learning objectives </h4>
-                    <p></p>
-                    <ul>
-                        <li>Identify the role of genetics in the criminal justice system via forensic applications and genetic databases</li>
-                        <li>Design potential safeguards of current and future uses of genetics in the criminal justice system</li>
-                        <li>Evaluate scientists’ role and responsibilities regarding applications of genetics in the criminal justice system</li>
-                    </ul>
-                    <p></p>
-                    <ul>
-                        <li>Ideate ways to make existing academic structures more equitable, inclusive, and just, and will create actionable goals to do so</li>
-                    </ul>
-                    <h4> Pre-class assignment </h4>
-                    <ul>
-                        <li>Survey https://stanfordmedicine.qualtrics.com/jfe/form/SV_cGzeK8dR3N93aqq </li>
-                    </ul>
-                    <h4> In-class readings </h4>
-                    <ul>
-                        <li>Congress should support access to post-conviction DNA testing. By Kirk Bloodswirth (07/29/15)</li>
-                        <li>The untold story of how the Golden State Killer was found: A covert operation and private DNA. By Paige St. John (12/8/2020)</li>
-                        <li>Opinion: After a rape survivor’s arrest, it’s time to rethink genetic databases. By Jennifer King (02/17/2022)</li>
-                        <li>Scientists Say DNA Can Reunite Separated Migrant Families. By Walter Beckwith 05/28/2021)</li>
-                    </ul>
-                    <h4> In-class Activity </h4>
-                    <p><a href="https://docs.google.com/presentation/d/10ZvYcTWEDzwo1Tlh07999CNXp0f3M1_Xuqr-af_G01g/edit?usp=sharing">Worksheet </a> for ideation activity</p>
-                    <ul>
-                        <li>Garcia 2018. DNA Evidence Exonerates a Man of Murder After 20 Years in Prison</li>
-                        <li>Sero et al 2019. Facial recognition from DNA using face-to-DNA classifiers.</li>
-                        <li>Miller 2010. Familial DNA Testing Scores a Win in Serial Killer Case</li>
-                        <li>Oldt and Kanthaswamy 2020. Expanded CODIS STR allele frequencies – Evidence for the irrelevance of race-based DNA databases</li>
-                    </ul>
-                    <a target="_blank" href="Slides/session6_criminaljustice&ideation.pdf" class="btn btn-primary default">Session 6 Slides &raquo;</a></p>
-                    <p>
-                    </p>
-                </div>
-            </section>
+    <section id="home">
+        <div class="container lead">
+            <br>
+            <br>
+            <br>
+            <h1>Curriculum (2022)</h1>
+        </div>
+    </section>
 
-                            </body>
-                            
-                            <hr class="star-primary">
-                            <footer>
-                            <small>
-                            <center>
-                            Credits: CR template
-                            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-                            <div style="display:none;" id="credit">
-                                [CR template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/dmsl/course-responsive-template" target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
-                            </div>
-                            </center>
-                            </small>
-                            </footer>
-                            
-                            
-                            </html>
+    <section id="content">
+        <div class="container lead">
+            <hr class="star-primary">
+            <h3 id="tab-2-title"><a href="syllabus.pdf">Syllabus</a></h3>
+            <hr class="star-primary">
+            <h3 id="tab-2-title">Learning goals</h3>
+            <p>
+                1. Connect the historical context of genetics research to its modern-day practice </br>
+                2. Evaluate the social and ethical implications of genetics research </br>
+                3. Analyze how societal norms and structures, along with personal identities, biases, and
+                responsibility, impact the conduct of scientific research </br>
+            </p>
+            <hr class="star-primary">
+            <h3>Overview</h3>
+            <p><a href="#session1">Session 1: Introduction to Bioethics and Society</a> <br></p>
+            <p><a href="#session2">Session 2. History of Heredity </a><br></p>
+            <p><a href="#session3">Session 3. Introduction to Human Genetic Data </a><br></p>
+            <p><a href="#session4">Session 4. Race, Ancestry, Identity, and Genetics </a><br></p>
+            <p><a href="#session5">Session 5. Reproductive Genetics; Positionality </a><br></p>
+            <p><a href="#session6">Session 6. Criminal Justice; Action </a><br></p>
+            </p>
+            <hr class="star-primary">
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session1">Session 1: Introduction to Bioethics and Society</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Describe personal identities and use this to co-create ground norms for discussions throughout the
+                    course </li>
+                <li>Evaluate different ethical frameworks by applying the four principles of bioethics to case studies
+                </li>
+                <li>Identify the ways in which societal structures and norms impact science </li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li>Read: a short primer on intersectionality, positionality, and privilege & the four principles of
+                    medical ethics</li>
+                <li>Read: the last section of Macklin 2003, "Applying the four principles" ('Genetic manipulation to
+                    produce germline transmissible genetic enhancement', beginning at the bottom of p. 278)</li>
+            </ul>
+            <h4> In-class readings </h4>
+            <ul>
+                <li>Abridged version of <a href="https://freerads.org/science-scope-full">Science Under the Scope</a> by
+                    Sophie Wang</li>
+            </ul>
+            <h4> Optional readings </h4>
+            <ul>
+                <li>Gillon 2003, "Four scenarios -- the section titled 'Genetic manipulation to produce germline
+                    transmissible genetic enhancement' is relevant.</li>
+                <li>Harris 2003, "In praise of unprincipled ethics" -- Case II (beginning p. 306) is relevant.</li>
+                <li>Callahan 2003, "Principlism and communitarianism"</li>
+                <li>Campbell 2003, "The virtues (and vices) of the four principles"</li>
+                <li>Greely 2019, "He Jiankui, embryo editing, CCR5, the London patient, and jumping to conclusions"</li>
+            </ul>
+            <a target="_blank" href="Slides/session1_bioethics_science&society.pdf"
+                class="btn btn-primary default">Session 1 Slides &raquo;</a></p>
+            <p>
+            </p>
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session2">Session 2. History of Heredity</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Recall how the study of heredity and genetics has developed over time </li>
+                <li>Understand how societal biases intersected with knowledge of heredity/genetics to justify early
+                    scientific thought and 19th/20th century eugenics movements </li>
+                <li>Analyze how historical context impacts modern-day science through the specific examples of eugenics
+                    and genome editing</li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li>Read: highlighted sections on pages 3-11, 16-18 of Eugenic Nation by Alexandra Minna Stern </li>
+                <li>Read: highlighted sections on pages 4-10 of Ch. 1, She Has Her Mother's Laugh by Carl Zimmer </li>
+                <li>Read: highlighted sections on pages 14-19, 23-30 of Ch. 2, She Has Her Mother's Laugh by Carl Zimmer
+                </li>
+            </ul>
+            <a target="_blank" href="Slides/session2_history_of_heredity.pdf" class="btn btn-primary default">Session 2
+                Slides &raquo;</a></p>
+        </div>
+        </div>
+    </section>
+    <p>
+    </p>
+    </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session3">Session 3. Introduction to Human Genetic Data</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li> Identify limitations and concerns around the collection, use, and analysis of human genetic data
+                </li>
+                <li> Develop an understanding of the current landscape of genomic data stewardship </li>
+                <li> Identify key stakeholders and conflicts of stakeholdership in the collection, use, and analysis of
+                    human genetic data </li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <p>What does the landscape of attitudes towards genetics look like around you? Ask 2-5 people in your life
+                (friends, family, colleagues, community members, etc.) about their impressions of genetic studies and/or
+                direct-to-consumer genetic testing. Some example questions: </p>
+            <ul>
+                <li> Have you / do you plan on using a direct-to-consumer genetic testing service like Ancestry or
+                    23&Me? Why or why not? </li>
+                <li> How would you feel about being part of a genetic research study? What questions would you have?
+                </li>
+                <li> What questions or concerns do you have about genetic testing / genetic data? </li>
+            </ul>
+            <h4> In-class readings </h4>
+            <ul>
+                <li><a href="https://www.23andme.com/legal/privacy/">23andMe</a> : note that the additional links at the
+                    bottom of the page may also be helpful, such as the test info</li>
+                <li><a href="https://www.ukbiobank.ac.uk/explore-your-participation/basis-of-your-participation">UK
+                        Biobank</a> </li>
+                <li><a href="https://www.ancestry.com/c/legal/privacystatement">Ancestry</a> </li>
+                <li><a
+                        href="https://h3africa.org/wp-content/uploads/2020/06/H3Africa-Consortium-Data-Access-Release-Policy-April-2020.pdf">H3Africa</a>
+                </li>
+            </ul>
+            <h4> Optional readings </h4>
+            <p>The Havasupai Tribe vs ASU</p>
+            <ul>
+                <li>Nanibaa’ Garrison. Genomic Justice for Native Americans: Impact of the Havasupai Case on Genetic
+                    Research. Sci Technol Human Values. 2012 </li>
+                <li>Robyn Sterling. Genetic Research among the Havasupai: A Cautionary Tale. AMA Journal of Ethics. 2012
+                </li>
+                <li>Havasupai Tribe v Arizona Board of Regents, 220 Ariz. 214, 222 (2008) </li>
+            </ul>
+            <p>More on Indigenous Communities and Genetic Data</p>
+            <ul>
+                <li>Claw et al. Perspectives on Genetic Research: Results From a Survey of Navajo Community Members.
+                    Front. Genet., 02 December 2021 </li>
+                <li>Claw et al. A framework for enhancing ethical genomic research with Indigenous communities. Nat
+                    Comm. 2018 </li>
+            </ul>
+            <p>General Overview of Understanding Ownership and Privacy of Data</p>
+            <ul>
+                <li>Segert. Understanding Ownership and Privacy of Genetic Data. 28 November 2018. </li>
+            </ul>
+            <a target="_blank" href="Slides/session3_human_genetic_data.pdf" class="btn btn-primary default">Session 3
+                Slides &raquo;</a></p>
+            <p>
+            </p>
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session4">Session 4. Race, Ancestry, Identity, and Genetics</h3>
+            <h4> Learning objectives </h4>
+            <ul>
+                <li>Examine how genetic ancestry and race are used in current genetic studies </li>
+                <li>Evaluate inconsistencies and uncertainties in how race, ethnicity, and ancestry are defined and used
+                    in genetics </li>
+                <li>Assess the risks and benefits of using genetic ancestry and race in current genetic studies and
+                    identify how to mitigate risks </li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li>Read: Harmon 2018, "Why White Supremacists Are Chugging Milk (and Why Geneticists Are Alarmed)"
+                </li>
+                <li>Read: Lewis et al. 2022, "Getting Genetic Ancestry Right for Science and Society" </li>
+            </ul>
+            <h4> Optional readings </h4>
+            <ul>
+                <li>Davis, L. K. (n.d.). Human Genetics Needs an Antiracism Plan. Scientific American. </li>
+                <li>Duello, T. M., Rivedal, S., Wickland, C., & Weller, A. (2021). Race and genetics versus ‘race’ in
+                    genetics: A systematic review of the use of African ancestry in genetic studies. Evolution,
+                    Medicine, and Public Health, 9(1), 232–245. </li>
+                <li>Popejoy, A. B. (2021). Too many scientists still say Caucasian. Nature, 596(7873), 463–463. </li>
+                <li>Roth, W. D., & Ivemark, B. (2018). Genetic Options: The Impact of Genetic Ancestry Testing on
+                    Consumers’ Racial and Ethnic Identities. American Journal of Sociology, 124(1), 150–184. </li>
+                <li>Roth, W. D., Yaylacı, Ş., Jaffe, K., & Richardson, L. (2020). Do genetic ancestry tests increase
+                    racial essentialism? Findings from a randomized controlled trial. PLOS ONE, 15(1), e0227399.</li>
+                <li>TallBear, K., & Bolnick, D. A. (n.d.). “Native American DNA” Tests: What are the Risks to Tribes?
+                </li>
+                <li>Vilhjálmsson, B. J., & Nordborg, M. (2013). The nature of confounding in genome-wide association
+                    studies. Nature Reviews Genetics, 14(1), 1–2. </li>
+            </ul>
+            <a target="_blank" href="Slides/s4.pdf" class="btn btn-primary default">Session 4 Slides &raquo;</a></p>
+            <p>
+            </p>
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session5">Session 5. Reproductive Genetics; Positionality</h3>
+            <h4> Learning objectives </h4>
+            <p>Ethical Issues in Reproductive Genetics</p>
+            <ul>
+                <li>Understand the role of eugenics in the development of the prenatal genetic testing field </li>
+                <li>Summarize the current landscape of prenatal genetic testing, carrier screening, and embryo selection
+                </li>
+                <li>Extrapolate the future implications of the currently available technologies </li>
+                <li>Evaluate how principle-based ethics can help guide society towards ethical application of these
+                    technologies </li>
+            </ul>
+            <p>Positionality</p>
+            <ul>
+                <li>Evaluate your own positionality and its relationship to your work as a scientist </li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li>Read: "The Last Children of Down Syndrome" by Sarah Zhang </li>
+            </ul>
+            <h4> Optional readings </h4>
+            <ul>
+                <li>Parens and Asch 2003. "Disability Rights Critique of Prenatal Genetic Testing: Reflections and
+                    Recommendations". </li>
+                <li>Vaimberg et al 2021. "Project Inclusive Genetics: Exploring the impact of patient-centered
+                    counseling training on physical disability bias in the prenatal setting". </li>
+                <li>Hercher 2021. "A New Era of Designer Babies May Be Based on Overhyped Science". </li>
+                <li>Turley et al 2021. "Problems with Using Polygenic Scores to Select Embryos". </li>
+            </ul>
+            <h4> Course run </h4>
+            <a target="_blank" href="Slides/session5_reproductivegenetics_reflection.pdf"
+                class="btn btn-primary default">Session 5 Slides &raquo;</a></p>
+            <p>
+            </p>
+        </div>
+    </section>
+    <!-- Background Section -->
+    <section id="session_overview">
+        <div class="container lead">
+            <h3 id="session6">Session 6. Criminal Justice; Ideation and Action </h3>
+            <h4> Learning objectives </h4>
+            <p></p>
+            <ul>
+                <li>Identify the role of genetics in the criminal justice system via forensic applications and genetic
+                    databases</li>
+                <li>Design potential safeguards of current and future uses of genetics in the criminal justice system
+                </li>
+                <li>Evaluate scientists’ role and responsibilities regarding applications of genetics in the criminal
+                    justice system</li>
+            </ul>
+            <p></p>
+            <ul>
+                <li>Ideate ways to make existing academic structures more equitable, inclusive, and just, and will
+                    create actionable goals to do so</li>
+            </ul>
+            <h4> Pre-class assignment </h4>
+            <ul>
+                <li>Survey https://stanfordmedicine.qualtrics.com/jfe/form/SV_cGzeK8dR3N93aqq </li>
+            </ul>
+            <h4> In-class readings </h4>
+            <ul>
+                <li>Congress should support access to post-conviction DNA testing. By Kirk Bloodswirth (07/29/15)</li>
+                <li>The untold story of how the Golden State Killer was found: A covert operation and private DNA. By
+                    Paige St. John (12/8/2020)</li>
+                <li>Opinion: After a rape survivor’s arrest, it’s time to rethink genetic databases. By Jennifer King
+                    (02/17/2022)</li>
+                <li>Scientists Say DNA Can Reunite Separated Migrant Families. By Walter Beckwith 05/28/2021)</li>
+            </ul>
+            <h4> In-class Activity </h4>
+            <p><a
+                    href="https://docs.google.com/presentation/d/10ZvYcTWEDzwo1Tlh07999CNXp0f3M1_Xuqr-af_G01g/edit?usp=sharing">Worksheet
+                </a> for ideation activity</p>
+            <ul>
+                <li>Garcia 2018. DNA Evidence Exonerates a Man of Murder After 20 Years in Prison</li>
+                <li>Sero et al 2019. Facial recognition from DNA using face-to-DNA classifiers.</li>
+                <li>Miller 2010. Familial DNA Testing Scores a Win in Serial Killer Case</li>
+                <li>Oldt and Kanthaswamy 2020. Expanded CODIS STR allele frequencies – Evidence for the irrelevance of
+                    race-based DNA databases</li>
+            </ul>
+            <a target="_blank" href="Slides/session6_criminaljustice&ideation.pdf"
+                class="btn btn-primary default">Session 6 Slides &raquo;</a></p>
+            <p>
+            </p>
+        </div>
+    </section>
+
+</body>
+
+<hr class="star-primary">
+<footer>
+    <small>
+        <center>
+            Credits: CR template
+            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png" /></a>
+            <div style="display:none;" id="credit">
+                [CR template available under Creative Commons CC BY 4.0 licence: <a
+                    href="https://github.com/dmsl/course-responsive-template"
+                    target="_blank">https://github.com/dmsl/course-responsive-template</a> ]
+            </div>
+        </center>
+    </small>
+</footer>
+
+
+</html>
